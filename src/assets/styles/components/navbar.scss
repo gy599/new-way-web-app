@@ -1,0 +1,30 @@
+.navbar {
+  &-container {
+    .icon-text {
+      font-family: $font-family-macondo;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #042c71;
+    }
+    .navbar-collapse {
+      .navbar-nav {
+        // gap: 3.5rem;
+        .nav-item {
+          @include media-breakpoint-up(lg) {
+            margin-left: 56px;
+          }
+          .nav-link {
+            font-family: $font-family-open-sans;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: -0.019em;
+            color: #042c71;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}
