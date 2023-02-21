@@ -31,6 +31,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
+        
         <div className="container navbar-container">
           <div className="d-flex align-items-center">
             <Link to="/">

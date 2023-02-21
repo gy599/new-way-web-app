@@ -4,7 +4,7 @@ import PageLayout from "../../layout/default-layout";
 const OurStory = () => {
   return (
     <PageLayout>
-    <h1 className="container">tomike is a good teacher</h1>
+    <h1 className="container">tomike is a wonderful teacher</h1>
   </PageLayout>
   )
 }
