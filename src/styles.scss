@@ -4,8 +4,14 @@
 //components
 @import "./assets/styles/components/navbar.scss"; 
 @import "./assets/styles/components/footer.scss"; 
+@import "./assets/styles/components/card.scss"; 
+@import "./assets/styles/components/button.scss"; 
+@import "./assets/styles/components/input.scss"; 
+
 
 //pages
-
+@import "./assets//styles//pages//home.scss";
+@import "./assets/styles/pages//our-story.scss";
+@import "./assets/styles/pages//create-account.scss";
 
 //layout

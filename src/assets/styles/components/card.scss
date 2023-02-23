@@ -1,0 +1,51 @@
+.card {
+  border: none;
+  margin-bottom: 37px;
+  .header {
+    font-family: $font-family-open-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ce4912;
+  }
+  .details-list {
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0.5;
+    li {
+      margin-left: 10px;
+      font-family: $font-family-open-sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #042c71;
+    }
+    .date-text{
+        font-family: $font-family-open-sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #042c71;
+        margin: 0; 
+    }
+    .bookmark-icon{
+        margin-left: 10px;
+        color: #ce4912;
+    }
+  }
+.profile-details{
+    display: flex;
+    align-items: center;
+
+    .profile-name{
+        padding: 0px 0px 0px 5px ;
+        font-family:  $font-family-open-sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #042c71;
+        margin: 0; 
+    }
+}
+}

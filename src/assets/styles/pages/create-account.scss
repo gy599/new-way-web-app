@@ -1,0 +1,55 @@
+// .create-account{
+//     .create-button{
+//        width: 274px;
+// height: 56px;
+// border: 1px solid #042C71;
+// border-radius: 7px;
+//     }
+//     .create-image{
+//         position: relative;
+//         left: 60px;
+//     }
+// }
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px 8px rgba(11, 106, 176, 0.3);
+  .become-a-member {
+    // width: 100%;
+  }
+
+  .create-button {
+    width: 80%;
+    border: 1px solid #042c71;
+    border-radius: 7px;
+  }
+  .create-image {
+    position: relative;
+    left: 50px;
+  }
+  .card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #042C71;
+}
+.card-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+letter-spacing: -0.019em;
+
+/* 60 */
+
+color: #042C71;
+}
+}
+
+

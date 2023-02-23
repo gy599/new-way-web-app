@@ -1,0 +1,32 @@
+.story-content-one{
+    margin-bottom: 57px;
+    .story-details {
+        margin-top: 53px;
+      
+            .details-header {
+                font-family:  $font-family-open-sans;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 150%;
+                color: #042C71;
+              }
+            
+              .details-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                color: #042C71;
+              
+                @include media-breakpoint-up(lg) {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #042C71;
+                    padding: 0px 70px 0px 0px;
+                  }
+              }
+        }
+     
+    }
+    

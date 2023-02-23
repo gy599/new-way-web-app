@@ -12,7 +12,7 @@
         // gap: 3.5rem;
         .nav-item {
           @include media-breakpoint-up(lg) {
-            margin-left: 56px;
+            margin-left: 32px;
           }
           .nav-link {
             font-family: $font-family-open-sans;

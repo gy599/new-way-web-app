@@ -33,7 +33,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         
         <div className="container navbar-container">
-          <div className="d-flex align-items-center">
+          <div className="">
             <Link to="/">
               <img src="/images/logo.svg" alt="logo icon" />
             </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse ms-5" id="navbarNav">
+          <div className="collapse navbar-collapse ms-5 justify-content-end align-items-end" id="navbarNav">
             <ul className="navbar-nav">
             {navdata.map((item, index) => {
               return (
