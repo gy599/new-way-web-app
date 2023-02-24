@@ -7,7 +7,7 @@ const Card = ({
   locationText,
   readText,
   name,
-  nameimage
+  nameimage,
 }) => {
   return (
     <div className=" col-lg-4 col-md-4 card">

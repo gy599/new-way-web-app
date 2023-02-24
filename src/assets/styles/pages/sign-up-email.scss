@@ -1,0 +1,57 @@
+.container {
+  .sign-email-header {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #042c71;
+    margin-top: 70px;
+  }
+  .sign-email-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #042C71;
+  }
+  .sign-up-form{
+    margin-top: 48px;
+  }
+  .form-label {
+    padding: 0px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #042c71;
+  }
+  .sign-up-input {
+    padding: 10px 100px 10px 10px;
+    height: 47px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    @include media-breakpoint-up(xl) {
+        padding: 10px 100px 10px 10px;
+        width: 100%;
+        height: 47px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+         }
+  }
+  .input-details {
+    gap: 50px;
+    flex-wrap: nowrap;
+  }
+  .account-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #042C71;   
+  }
+  .sign-in-text{
+    color: #CE4912;
+    font-weight: 700;
+  }
+}

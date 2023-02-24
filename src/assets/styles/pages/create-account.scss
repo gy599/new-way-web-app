@@ -10,14 +10,57 @@
 //         left: 60px;
 //     }
 // }
-.card {
+.create-account {
+  width: 100%;
+  height: 647px ;
+  padding-top: 41px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  border-radius: 0px;
   background: #ffffff;
   box-shadow: 4px 4px 4px 8px rgba(11, 106, 176, 0.3);
-  .become-a-member {
-    // width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    width: 70%;
+    height: 647px ;
+    padding-top: 41px;
+   
+     }
+  @include media-breakpoint-up(md) {
+    width: 70%;
+    height: 647px ;
+    padding-top: 41px;
+     }
+  @include media-breakpoint-up(lg) {
+    width: 50%;
+    height: 647px ;
+    padding-top: 41px;
+     }
+  @include media-breakpoint-up(xl) {
+ width: 36.3%;
+ height: 647px ;
+ padding-top: 41px;
+  }
+  .card-section{
+    margin-top: 72px;
+  }
+  .card-details {
+display: flex;
+align-items: center;
+padding: 10px 10px 10px 10px;
+gap: 10px;
+width: 274px;
+height: 56px;
+border: 1px solid #042C71;
+border-radius: 7px;
+  }
+  .card-details-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #042C71;
+padding: 10px 0px 0px 0px;
   }
 
   .create-button {
@@ -37,18 +80,24 @@
     color: #042C71;
 }
 .card-text{
+  margin-top: 28px;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 150%;
-/* identical to box height, or 36px */
-
-letter-spacing: -0.019em;
-
-/* 60 */
-
 color: #042C71;
+}
+.account-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #042C71;
+}
+.sign-in-text{
+  color: #CE4912;
+  font-weight: 700;
 }
 }
 

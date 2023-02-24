@@ -1,7 +1,10 @@
+
 export const RouteLinks = {
     home: "/",
     ourStory: "/our-story",
-    createAccount: "/create-account"
+    createAccount: "/create-account",
+    signEmail:"/sign-email",
+    Dashboard:"/dashboard"
 };
 
 export const FooterRouteLinks = {
