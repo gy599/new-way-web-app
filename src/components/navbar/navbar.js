@@ -19,7 +19,7 @@ const Navbar = () => {
         },
         {
             title:'Sign in',
-            path:RouteLinks.login
+            path:RouteLinks.signIn
         },
         {
             title:'Get Started',

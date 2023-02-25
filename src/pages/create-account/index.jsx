@@ -21,7 +21,7 @@ const CreateAccount = () => {
             </div>
             <div className="card-details my-4">
               <img src="/images/mail.jpg" alt="mail-icon" />
-              <Link to={RouteLinks.signEmail}>
+              <Link to={RouteLinks.signEmail} style={{textDecoration: 'none'}}>
                 <p className="card-details-text">Sign up with Email</p>
               </Link>
             </div>

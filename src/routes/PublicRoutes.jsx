@@ -3,6 +3,7 @@ import OurStory from "../pages/our-story";
 import CreateAccount from "../pages/create-account";
 import SignEmail from "../pages/sign-up-email";
 import Dashboard from "../pages/Dashboard";
+import SignIn from "../pages/sign-in"
 import { RouteLinks } from "./RouteLinks";
 
 export const PublicRoute = [
@@ -29,6 +30,11 @@ export const PublicRoute = [
     {
         component:<Dashboard/>,
         path:RouteLinks.Dashboard,
+        exact:true,
+    }, 
+    {
+        component:<SignIn/>,
+        path:RouteLinks.signIn,
         exact:true,
     }, 
 ];
