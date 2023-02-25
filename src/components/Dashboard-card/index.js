@@ -7,9 +7,11 @@ const DashboardCard = ({
   DashboardName,
 }) => {
   return (
+    
     <div className=" col-lg-4 col-md-4 card dashboard">
       <img src={img} alt="card" className="card-img-top img-fluid" />
       <div className="d-flex justify-content-between my-2">
+  
         <div className="profile-details">
           <img src={DashboardImage} alt="card" />
           <p className="profile-name">{DashboardName}</p>
@@ -21,7 +23,7 @@ const DashboardCard = ({
         </div>
       </div>
       <h6 className="Dashboard-header">{DashboardText}</h6>
-      <div className="d-flex">
+      <div className="d-flex gap-4">
         <div>
           <img src="/images/Vector.svg" alt="vector" />
         </div>

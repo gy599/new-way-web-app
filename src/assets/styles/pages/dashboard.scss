@@ -1,12 +1,32 @@
-.dashboard{
-    .dashboard-icons{
-        padding-right: 40px;
-    }
-    .Dashboard-header{
-        font-family: 'Open Sans';
+.dashboard {
+  .dashboard-icons {
+    padding-right: 40px;
+  }
+  .Dashboard-header {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #042c71;
+  }
+}
+.dashboard-input {
+  background-image: url("../../../../public//images//Filter-2.png");
+  width: 734px;
+  height: 55px;
+  background-color: #ffffff;
+  border: 1px solid #0b6ab0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position:right ;
+  padding: 14px 9px 15px 53px;
+
+
+  }
+  input::placeholder{
+    font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-color: #042C71;
-    }
-}
+color: #0B6AB0;
+  }
