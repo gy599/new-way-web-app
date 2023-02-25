@@ -41,7 +41,7 @@ const Sidebar = () => {
             </div>
             <div className="closemenu" onClick={menuIconClick}>
               {/* changing menu collapse icon on click */}
-              {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
+              {menuCollapse ? <i class="bi bi-x"></i>: <i class="bi bi-x"></i>}
             </div>
           </SidebarHeader>
           <SidebarContent>
