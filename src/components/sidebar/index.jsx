@@ -11,8 +11,6 @@ import {
 //import icons from react icons
 import {
   FiLogOut,
-  FiArrowLeftCircle,
-  FiArrowRightCircle,
 } from "react-icons/fi";
 
 //import sidebar css from react-pro-sidebar module and our custom css
@@ -20,12 +18,8 @@ import "react-pro-sidebar/dist/css/styles.css";
 import "../../assets/styles/components/sidebar.scss";
 
 const Sidebar = () => {
-  //create initial menuCollapse state using useState hook
   const [menuCollapse, setMenuCollapse] = useState(false);
-
-  //create a custom function that will change menucollapse state from false to true and true to false
   const menuIconClick = () => {
-    //condition checking to change state from true to false and vice versa
     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
 
@@ -40,7 +34,6 @@ const Sidebar = () => {
               <p>{menuCollapse ? "Logo" : "Big Logo"}</p>
             </div>
             <div className="closemenu" onClick={menuIconClick}>
-              {/* changing menu collapse icon on click */}
               {menuCollapse ? <i class="bi bi-x"></i>: <i class="bi bi-x"></i>}
             </div>
           </SidebarHeader>

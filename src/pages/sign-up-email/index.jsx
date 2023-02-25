@@ -101,8 +101,6 @@ const SignEmail = () => {
               </div>
             </div>
           </div>
-
-           
         </form>
         <div className="text-center my-5">
         <BtnSmall label="Proceed" type="submit"/>
