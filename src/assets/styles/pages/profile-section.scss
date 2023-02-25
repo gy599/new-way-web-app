@@ -1,0 +1,36 @@
+.profile {
+  .profile-section {
+    background-image: url("../../../../public//images/profile-background.jpg");
+    height: 454px;
+    background-size: cover;
+    padding-top: 40px;
+  }
+  .profile-name {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #042c71;
+  }
+  .profile-picture-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #0B6AB0;
+  }
+  .profile-number{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #CE4912;
+
+@include media-breakpoint-up(lg) {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #CE4912;
+  }
+  }
+}
