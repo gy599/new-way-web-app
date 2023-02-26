@@ -6,6 +6,9 @@
     opacity: 0.1;
     border-radius: 40px;
     padding-bottom: 50px;
+    @include media-breakpoint-down(lg) {
+        width: 100%;
+      }
   }
   
 }
