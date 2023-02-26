@@ -73,7 +73,20 @@ const Profile = () => {
         </div>
         <div>
           <h1 className="profile-name">Blog posts</h1>
-          <div className="d-flex gap-3">
+          <div className="d-lg-flex gap-3">
+            <img src="/images/T-img1.jpg" alt="profile" />
+            <div>
+              <p className="blog-posts-header">
+                Understanding the principles of design in the 21st century{" "}
+              </p>
+              <div className="d-lg-flex gap-2">
+                <p className="blog-post-text">Feb 2</p>
+                <p className="blog-post-text">5 mins read</p>
+                <p className="blog-post-text">Lisbon</p>
+              </div>
+            </div>
+          </div>
+          <div className="d-lg-flex my-5 gap-3">
             <img src="/images/T-img1.jpg" alt="profile" />
             <div>
               <p className="blog-posts-header">
@@ -86,20 +99,7 @@ const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="d-flex my-5 gap-3">
-            <img src="/images/T-img1.jpg" alt="profile" />
-            <div>
-              <p className="blog-posts-header">
-                Understanding the principles of design in the 21st century{" "}
-              </p>
-              <div className="d-flex gap-2">
-                <p className="blog-post-text">Feb 2</p>
-                <p className="blog-post-text">5 mins read</p>
-                <p className="blog-post-text">Lisbon</p>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex my-5 gap-3">
+          <div className="d-lg-flex my-5 gap-3">
             <img src="/images/T-img1.jpg" alt="profile" />
             <div>
               <p className="blog-posts-header">
