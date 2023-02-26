@@ -1,4 +1,5 @@
 #header {
+  
     position: absolute;
     width: 22%;
   }
@@ -67,5 +68,8 @@
   @media only screen and (max-width: 720px) {
     html {
       overflow: hidden;
+    }
+    #header{
+      width: 50%;
     }
 }

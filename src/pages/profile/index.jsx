@@ -1,5 +1,7 @@
 import React from "react";
 import PageLayout from "../../layout/default-layout";
+import { Link } from "react-router-dom";
+import { RouteLinks } from "../../routes/RouteLinks";
 import { BtnSmall } from "../../components/button/button";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +16,9 @@ const Profile = () => {
               <img src="/images/logo.svg" alt="logo" />
               <p className="profile-name">Zoe Smith</p>
             </div>
+           
             <p className="profile-picture-text">Edit Profile Picture</p>
+
           </div>
           <div className="d-lg-flex d-md-flex justify-content-center gap-5 d-flex-sm-column">
             <div>
@@ -30,7 +34,9 @@ const Profile = () => {
               <p className="profile-number">Number of likes</p>
             </div>
           </div>
+          <Link to={RouteLinks.editProfile}>
           <BtnSmall label="Edit Profile" />
+          </Link>
         </div>
         <p className="blog-post-text">Content Videos</p>
         <div class="row">

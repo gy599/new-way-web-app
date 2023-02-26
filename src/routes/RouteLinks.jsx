@@ -6,7 +6,8 @@ export const RouteLinks = {
     signEmail:"/sign-email",
     Dashboard:"/dashboard",
     signIn:"/sign-in",
-    profile:"/profile"
+    profile:"/profile",
+    editProfile:"/edit-profile"
 };
 
 export const FooterRouteLinks = {

@@ -5,6 +5,7 @@ import SignEmail from "../pages/sign-up-email";
 import Dashboard from "../pages/Dashboard";
 import SignIn from "../pages/sign-in";
 import Profile from "../pages/profile"
+import EditProfile from "../pages/edit-profile";
 import { RouteLinks } from "./RouteLinks";
 
 export const PublicRoute = [
@@ -41,6 +42,11 @@ export const PublicRoute = [
     {
         component:<Profile/>,
         path:RouteLinks.profile,
+        exact:true,
+    }, 
+    {
+        component:<EditProfile/>,
+        path:RouteLinks.editProfile,
         exact:true,
     }, 
 ];
