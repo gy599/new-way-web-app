@@ -10,7 +10,7 @@ const CreateAccount = () => {
         <div className="card create-account mx-auto my-5 col-10 col-md-8 col-lg-6">
           <div className="d-flex">
           <h3 className="card-title text-center">Hey Buddy</h3>
-          <img src="/images/smiley.svg"/>
+          <img src="/images/smiley.svg" alt="smiley"/>
         </div>
          
           <p className="card-text text-center">Welcome!</p>
