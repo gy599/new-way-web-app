@@ -1,6 +1,8 @@
 import React from "react";
 import PageLayout from "../../layout/default-layout";
 import { BtnSmall } from "../../components/button/button";
+import { Link } from "react-router-dom";
+import { RouteLinks } from "../../routes/RouteLinks";
 
 const SignEmail = () => {
   return (
@@ -103,7 +105,9 @@ const SignEmail = () => {
           </div>
         </form>
         <div className="text-center my-5">
+          <Link to ={RouteLinks.Dashboard}>
         <BtnSmall label="Proceed" type="submit"/>
+          </Link>
         <p className="account-text my-2">Have an account already? <span className="sign-in-text">Sign in</span></p>
         </div>
       </div>

@@ -9,13 +9,13 @@ import {
 } from "react-pro-sidebar";
 
 //import icons from react icons
-import {
-  FiLogOut,
-} from "react-icons/fi";
+import { FiLogOut } from "react-icons/fi";
 
 //import sidebar css from react-pro-sidebar module and our custom css
 import "react-pro-sidebar/dist/css/styles.css";
 import "../../assets/styles/components/sidebar.scss";
+import { Link } from "react-router-dom";
+import { RouteLinks } from "../../routes/RouteLinks";
 
 const Sidebar = () => {
   const [menuCollapse, setMenuCollapse] = useState(false);
@@ -34,11 +34,18 @@ const Sidebar = () => {
               <p>{menuCollapse ? "Logo" : "Big Logo"}</p>
             </div>
             <div className="closemenu" onClick={menuIconClick}>
-              {menuCollapse ? <i class="bi bi-x"></i>: <i class="bi bi-x"></i>}
+              {menuCollapse ? <i class="bi bi-x"></i> : <i class="bi bi-x"></i>}
             </div>
           </SidebarHeader>
           <SidebarContent>
             <Menu iconShape="square">
+              <Link to={RouteLinks.profile}>
+              <div className="profile-details d-flex align-items-center gap-2">
+                <img src="/images/avatar.jpg" alt="card" />
+                <p className="profile-name mt-2">Sandra</p>
+              </div>
+              </Link>
+             
               <MenuItem active={true} icon={""}>
                 Home
               </MenuItem>
@@ -51,8 +58,6 @@ const Sidebar = () => {
               <MenuItem icon={""}>Content videos</MenuItem>
               <MenuItem icon={""}>Goal progress</MenuItem>
               <MenuItem icon={""}>Settings</MenuItem>
-
-
             </Menu>
           </SidebarContent>
           <SidebarFooter>

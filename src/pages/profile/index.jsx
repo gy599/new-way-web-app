@@ -32,6 +32,7 @@ const Profile = () => {
           </div>
           <BtnSmall label="Edit Profile" />
         </div>
+        <p className="blog-post-text">Content Videos</p>
         <div class="row">
           <div class="col-lg-3">
             <div class="card">

@@ -3,6 +3,8 @@ import PageLayout from "../../layout/default-layout";
 import storyImage1 from "../../assets/img/Union.jpg"
 import storyImage2 from "../../assets/img/Union2.jpg"
 import { BtnSmall } from "../../components/button/button";
+import { Link } from "react-router-dom";
+import { RouteLinks } from "../../routes/RouteLinks";
 const OurStory = () => {
   return (
     <PageLayout>
@@ -44,7 +46,10 @@ const OurStory = () => {
             Become a NEWWAY buddy to enjoy unlimited access to our digital write ups, 
 content videos and direct support from mentors, create community and earn.
             </p>
-<BtnSmall label="Get Started" type="submit"/>
+            <Link to={RouteLinks.createAccount}>
+            <BtnSmall label="Get Started" type="submit"/>
+            </Link>
+
           </div>
           <img src={storyImage2} alt="story" />
         </div>
