@@ -11,6 +11,7 @@ const SignIn = () => {
   const navigate = useNavigate();
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const[ authenticated, setauthenticated] = useState(
     localStorage.getItem(localStorage.getItem("authenticated") || true)
   );
