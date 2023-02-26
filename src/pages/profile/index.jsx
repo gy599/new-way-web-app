@@ -3,17 +3,8 @@ import PageLayout from "../../layout/default-layout";
 import { BtnSmall } from "../../components/button/button";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-
 
 const Profile = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 7,
-      slidesToScroll: 1
-    };
   return (
     <PageLayout>
       <div className="profile">
@@ -41,30 +32,87 @@ const Profile = () => {
           </div>
           <BtnSmall label="Edit Profile" />
         </div>
-        <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/T-img1.jpg" alt="profile" />
+                <p  className="blog-post-text">Road maps in Product Design</p>
+                <p  className="blog-post-text">13/02/23</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>2</h3>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/T-img1.jpg" alt="profile" />
+                <p  className="blog-post-text">Road maps in Product Design</p>
+                <p  className="blog-post-text">13/02/23</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>3</h3>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/T-img1.jpg" alt="profile" />
+                <p  className="blog-post-text">Road maps in Product Design</p>
+                <p  className="blog-post-text">13/02/23</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>4</h3>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/T-img1.jpg" alt="profile" />
+                <p  className="blog-post-text" >Road maps in Product Design</p>
+                <p  className="blog-post-text">13/02/23</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
-      </div>
         </div>
+        <div>
+          <h1 className="profile-name">Blog posts</h1>
+          <div className="d-flex gap-3">
+            <img src="/images/T-img1.jpg" alt="profile" />
+            <div>
+              <p className="blog-posts-header">
+                Understanding the principles of design in the 21st century{" "}
+              </p>
+              <div className="d-flex gap-2">
+                <p className="blog-post-text">Feb 2</p>
+                <p className="blog-post-text">5 mins read</p>
+                <p className="blog-post-text">Lisbon</p>
+              </div>
+            </div>
+          </div>
+          <div className="d-flex my-5 gap-3">
+            <img src="/images/T-img1.jpg" alt="profile" />
+            <div>
+              <p className="blog-posts-header">
+                Understanding the principles of design in the 21st century{" "}
+              </p>
+              <div className="d-flex gap-2">
+                <p className="blog-post-text">Feb 2</p>
+                <p className="blog-post-text">5 mins read</p>
+                <p className="blog-post-text">Lisbon</p>
+              </div>
+            </div>
+          </div>
+          <div className="d-flex my-5 gap-3">
+            <img src="/images/T-img1.jpg" alt="profile" />
+            <div>
+              <p className="blog-posts-header">
+                Understanding the principles of design in the 21st century{" "}
+              </p>
+              <div className="d-flex gap-2">
+                <p className="blog-post-text">Feb 2</p>
+                <p className="blog-post-text">5 mins read</p>
+                <p className="blog-post-text">Lisbon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </PageLayout>
   );
 };
